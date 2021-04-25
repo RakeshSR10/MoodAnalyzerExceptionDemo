@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgeLab.MoodAnalyzerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-25T04:42:35" hostname="RAKESH" time="0.035">
+  <properties/>
+  <testcase name="givenMessage_WhenNotSad_ShouldReturnHappy()" classname="com.bridgeLab.MoodAnalyzerTest" time="0.028"/>
+  <testcase name="givenMessage_WhenNotSad_ShouldReturnSad()" classname="com.bridgeLab.MoodAnalyzerTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
