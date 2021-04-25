@@ -1,2 +1,5 @@
+com/bridgeLab/MoodAnalysisException.java
+ com.bridgeLab.MoodAnalysisException
+ com.bridgeLab.MoodAnalysisException$errorType
 com/bridgeLab/MoodAnalyzer.java
  com.bridgeLab.MoodAnalyzer

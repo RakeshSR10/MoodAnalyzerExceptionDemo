@@ -18,15 +18,22 @@ public class MoodAnalyzer {
     }
 
     //UC1 Given a message, Ability to analyse and respond Happy or Sad mood
-    public String analyseMood()
-    {
-        if(message.contains("Sad"))
-        {
-            return "SAD";
-        }
-        else
-        {
+    //analyseMood method and handling nullpointerexception
+    public String analyseMood(){
+        try {
+            //custom exception
+            this.message = message;
+            if(message == null || message == " ")
+            {
+                throw new MoodAnalysisException();
+            }
+            if(message.contains("Sad"))
+                return "SAD";
+            else
+                return "HAPPY";
+        }catch (NullPointerException | MoodAnalysisException e){
             return "HAPPY";
+
         }
     }
 }
