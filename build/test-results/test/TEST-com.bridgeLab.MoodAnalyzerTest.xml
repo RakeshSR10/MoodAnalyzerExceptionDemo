@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgeLab.MoodAnalyzerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-25T05:01:32" hostname="RAKESH" time="0.046">
+<testsuite name="com.bridgeLab.MoodAnalyzerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-25T05:14:26" hostname="RAKESH" time="0.042">
   <properties/>
-  <testcase name="givenNullMoodShould_Throw_MoodAnalysisException()" classname="com.bridgeLab.MoodAnalyzerTest" time="0.034"/>
+  <testcase name="givenNullMoodShould_Throw_MoodAnalysisException()" classname="com.bridgeLab.MoodAnalyzerTest" time="0.027"/>
   <testcase name="givenMessage_Constructor_whenSad_ShouldReturnSad()" classname="com.bridgeLab.MoodAnalyzerTest" time="0.002"/>
   <testcase name="givenMessage_Constructor_whenNotSad_ShouldReturnHappy()" classname="com.bridgeLab.MoodAnalyzerTest" time="0.002"/>
   <testcase name="givenEmptyMoodShould_Throw_MoodAnalysisException()" classname="com.bridgeLab.MoodAnalyzerTest" time="0.001"/>
-  <testcase name="givenNullMood_ShouldReturnHappy()" classname="com.bridgeLab.MoodAnalyzerTest" time="0.001"/>
+  <testcase name="givenNullMood_ShouldReturnHappy()" classname="com.bridgeLab.MoodAnalyzerTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

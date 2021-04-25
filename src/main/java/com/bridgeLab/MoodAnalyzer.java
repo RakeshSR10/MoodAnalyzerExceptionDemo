@@ -31,7 +31,8 @@ public class MoodAnalyzer {
                 return "SAD";
             else
                 return "HAPPY";
-        }catch (NullPointerException | MoodAnalysisException e){
+        }catch (NullPointerException | MoodAnalysisException e)//UC2
+        {
             return "HAPPY";
 
         }

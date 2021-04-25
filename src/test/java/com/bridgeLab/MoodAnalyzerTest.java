@@ -37,6 +37,7 @@ public class MoodAnalyzerTest {
         String mood = moodAnalyzer.analyseMood();
         Assertions.assertEquals("HAPPY",mood);
     }
+    //UC3
     @Test
     public void givenEmptyMoodShould_Throw_MoodAnalysisException(){
         MoodAnalyzer moodAnalyzer = new MoodAnalyzer();
